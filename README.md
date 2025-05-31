@@ -4,10 +4,9 @@ This repository contains a collection of machine learning projects, showcasing m
 
 ## Contents
 
-- `linear-regression/`: Implementation of a simple linear regression model for predictive analysis using scikit-learn and NumPy. *
+- `linear-regression/`: Implementation of a simple linear regression model for predictive analysis using scikit-learn and NumPy.
 
 ### Prerequisites
-
 Ensure you have Python 3.7+ installed.
 
 ### Installation
