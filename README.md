@@ -6,14 +6,34 @@ This repository contains a collection of machine learning projects, showcasing m
 
 - `linear-regression/`: Implementation of a simple linear regression model for predictive analysis using scikit-learn and NumPy.
 
-### Prerequisites
-Ensure you have Python 3.7+ installed.
+## Prerequisites
 
-### Installation
+- Python 3.7+
+- A [Kaggle](https://www.kaggle.com/) account
 
-Clone the repository and install dependencies:
+---
 
-```bash
+## Installation
+
+1. **Clone the repository** and install dependencies:
+
+```
 git clone https://github.com/kpose/ML-Projects.git
 cd ML-Projects
 pip install -r requirements.txt
+```
+
+Set up Kaggle API access:
+
+Go to https://www.kaggle.com/account
+Scroll to the API section and click "Create New API Token"
+
+This downloads a kaggle.json file
+Place the API key in the correct directory:
+
+
+```
+mkdir -p ~/.kaggle
+mv /path/to/kaggle.json ~/.kaggle/
+chmod 600 ~/.kaggle/kaggle.json
+```
